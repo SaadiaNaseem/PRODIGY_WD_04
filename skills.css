@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+header {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    border-bottom: 1px solid antiquewhite;
+    border-radius: 20px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #faebd7;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f0e68c;
+}
+
+.section {
+    margin: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid antiquewhite;
+    box-shadow: 1px 1px 20px antiquewhite;
+}
+
+.section h2 {
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 1px solid antiquewhite;
+    padding-bottom: 5px; 
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section ul li {
+    margin-left: 30px;
+    padding: 5px; /* Reduce padding to make the boxes smaller */
+    border-radius: 5px;
+    font-size: 18px;
+    list-style: circle;
+    color: antiquewhite;
+    flex: 1 1 calc(22% - 30px); /* Adjust width to ensure four items per row */
+    text-align: left;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color:black; /* Dark background for a professional look */
+    color: #faebd7; /* Light color for text */
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #faebd7;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif; 
+    border-radius: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Increase gap for better spacing */
+    margin-bottom: 15px; /* Spacing between links and copyright */
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links li a {
+    color: #faebd7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #f0e68c; 
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #faebd7; /* Ensure text color matches the overall theme */
+}

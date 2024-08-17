@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <strong>Personal Portfolio</strong>
+            <nav>
+                <ul>
+                    <li><a href="./hal.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./skills.html">Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <span><h1>Contact Me</h1></span>
+            <form id="contactForm">
+                <div class="form-group">
+                    <div class="inline-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name Here">
+                    </div>
+                    <div id="nameError" class="error"></div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="inline-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="abc123@gmail.com">
+                    </div>
+                    <div id="emailError" class="error"></div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="inline-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <div id="messageError" class="error"></div>
+                </div>
+    
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <footer>
+            <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/saadia-naseem-b3bb3b252/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/SaadiaNaseem" target="_blank">GitHub</a></li>
+            </ul>
+            <p>Saadia Naseem &copy; 2024</p>
+        </footer>
+    </div>
+    <script src="./contacts.js"></script>
+</body>
+
+</html>
